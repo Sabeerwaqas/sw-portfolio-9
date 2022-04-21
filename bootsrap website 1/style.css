@@ -1,0 +1,125 @@
+.header {
+    background-image: url(./images/img1.avif);
+    width: 100%;
+    height: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.some {
+    margin-top: 13%;
+    position: absolute;
+    color: white;
+    font-size: 300%;
+    margin-left: 12%;
+}
+
+.header-class {
+    width: 30%;
+    text-align: justify;
+    position: absolute;
+    margin-top: 20%;
+    color: white;
+    margin-left: 12%;
+}
+
+.fa-bullhorn {
+    text-align: center;
+}
+
+.some-heading {
+    font-size: 150%;
+    text-align: center;
+}
+
+.fa-bullhorn {
+    font-size: 250%;
+    margin-left: 45%;
+}
+
+.testimonial {
+    background-image: url(./images/img2.avif);
+    width: 100%;
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.testimonial-heading {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    margin-top: 10%;
+}
+
+.testimonial-para {
+    color: white;
+}
+
+.testimonial-para-parent {
+    margin-top: 5%;
+}
+
+.row-child {
+    width: 100%;
+    text-align: justify;
+}
+
+.recent-news {
+    color: red;
+}
+
+.row-parent {
+    margin-left: 12%;
+}
+
+.footer {
+    background-color: gray;
+    color: white;
+}
+
+@media screen and (max-width: 360px) {
+    .some {
+        margin-top: 30%;
+        position: absolute;
+        font-size: 200%;
+        color: black;
+        margin-left: 12%;
+    }
+    .header-class {
+        width: 100%;
+        text-align: justify;
+        position: absolute;
+        margin-top: 60%;
+        color: white;
+        margin-left: 12%;
+    }
+    .testimonial-para {
+        color: white;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .some {
+        margin-top: 30%;
+        position: absolute;
+        font-size: 300%;
+        color: black;
+        margin-left: 12%;
+    }
+    .header-class {
+        width: 60%;
+        text-align: justify;
+        position: absolute;
+        margin-top: 60%;
+        color: white;
+        margin-left: 12%;
+    }
+    .testimonial-para {
+        color: white;
+        margin-top: 10%;
+    }
+}
